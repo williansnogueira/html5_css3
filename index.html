@@ -1,0 +1,111 @@
+<!DOCTYPE html><!-- Este comando informa o navegador que se trata de um documento html5. Tudo o que estiver debaixo desta tag doctype é um documento do tipo html-->
+<html lang="pt-br"> <!--todo o conteudo estara dentro desta tag html. É o elemento Root de todos os demais. Lang = "pt-br" diz ser lingua portuguesa brasil-->   
+    <head> <!--head é o elemento onde ficam os metadados-->
+        <meta charset="utf8"><!--O meta charset informa o padrao utf8, usado no Brasil, aceitando acentos-->
+        <title>Minha página</title><!--coloca o nome na aba. Fica dentro do head, nas definicoes de metadados-->
+        <link rel="stylesheet" type="text/css" href="css/style.css"><!--informa o link do arquivo css que define o fundo, cores, estilos etc-->  
+    </head>
+
+    <body><!--define o corpo do documento, o conteudo dele-->
+        
+        <nav><!--menus-->
+            <p>Nome da empresa</p>
+            <ul><!--ul = unordered list = não ordena a lista abaixo quando exibidas-->                
+                <li><a href="#servicos">Serviços</a></li><!--menus--><!--<a href> leva para hiperlinks-->
+                <li>
+                    <a href="#clientes">Clientes</a>
+                </li>
+                <li>
+                    <a href="#parceiros">Parceiros</a>
+                </li>
+                <li><a href="#time">Time</a></li>
+                <li><a href="#contato">Contato</a></li>                                            
+            </ul>
+            
+            <ol><!--ol = unordered list = ordena a lista das Lis abaixo quando exibidas-->
+                <li><a href="#servicos">Serviços</a></li><!--menus--><!--<a href> leva para hiperlinks-->
+                <li><a href="#clientes">Clientes</a></li>
+                <li><a href="#parceiros">Parceiros</a></li>
+                <li><a href="#time">Time</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ol>
+             
+            <p>teste</p>
+              <ul type="square"><li></li></ul><!--mostra um quadrado na li, ao inves de um disco preto-->
+        </nav>
+
+        <header><!--define o cabecalho-->
+            <h1>H1</h1><!--Titulo principal. A Letra fica maior-->
+            <h2>H2</h2><!--Titulo principal. A Letra fica maior, mas menor que h1-->
+            <h3>H3</h3><!--Titulo principal. A Letra fica maior, mas menor que h1 e h2-->
+            <p>oferecemos os melhores sites</p>
+            <p>para sua empresa</p>
+        </header>
+
+        <section id="servicos">
+            <h2>Servicos</h2>
+            <p>oferecemos os melhores servicos de informatica</p>
+            <div>
+                <img src="img/img1.jpg"  class= "img_padrao"><!--class img_padrao define uma classe de imagem que será tratada diferente no CSS3-->
+            </div>
+            <div>
+                <img src="img/img2.jpg" width="300px">
+            </div>
+        </section>
+
+        <section id="clientes">
+            <h2>Clientes</h2>
+            <p>Nossos clientes ficaram muito contentes com nosso servico</p> 
+            <div>
+                <img src="img/img3.jpg" width="200px">
+            </div>           
+        </section>
+       
+        <section id="parceiros">
+            <h2>
+                Parceiros                
+            </h2>
+            <p>
+                YYY
+            </p>
+            <div>
+                <a href="https://digitalinnovation.one/"  target="_blank"><!--target="_blank abre uma nova aba para o link do, caso contrário abriria o link sobre a aba do meu site-->
+                    <img src="img/img1.jpg" width="100px">
+                </a>
+            </div>
+        </section>
+        <section id="time">
+            <h2>
+                Time               
+            </h2>
+            <p>
+                Flamengo
+            </p>
+            <div>
+                <img src="img/img1.jpg" width:500px >
+            </div>
+        </section>
+        <section id="contato">
+            <h2>
+                CONTATO               
+            </h2>
+            <p>
+                Entre em contato com nossa equipe
+            </p>
+            
+            <div>
+               <p><a href="mailto:xx@yyy.com">nome</a></p><!--dentro da tag <a href="mailto:"></a> vira link -->
+            </div>
+
+            <div>
+               <p><a href="tel:+99999999999">telefone:(099) 99999-9999</a></p> 
+            </div>
+
+        </section>
+        <footer><!--define o rodapé-->
+            <p>Desenvolvido por xxxx</p>
+        </footer>
+
+    </body>    
+
+</html>

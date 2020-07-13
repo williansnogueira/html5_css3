@@ -1,0 +1,54 @@
+body{
+    /*background: rgb(199, 164, 164);
+
+    /*em hexadecimal da cor
+    /*background: #5499C7;
+
+    /*em hsl = hue(0=vermelho, 120 = verde,240=azul), saturation(0%=cinza,100=cor total, lightness(0%=escuro total, 100%=claro toral)
+    /*background:hsl(240,0%,50%);*//*azul puro*/
+   
+    background:hsl(120,100%,0%); color:yellow; /*preto puro*/
+    /*background:red;*/
+
+    margin-left:30px;
+    margin-right:400px;
+}
+
+header{
+
+    margin-top: 130px;
+
+}
+
+h1{/*todos os h1 terao esta configuracao*/
+    color:red;
+    font-family: fantasy;
+}
+
+h2{/*todos os h2 terao esta configuracao*/
+    color:blue; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p{/*todos os pargrafos terao esta configuracao*/
+    font-size:18px;
+}
+
+footer{
+
+    margin-bottom:20px;
+
+}
+
+img{/*todas as imagens terao esta configuracao*/
+
+    margin-bottom: 120px;
+
+}
+
+.img_padrao{
+
+    margin-bottom:200px;
+    width:500px;   
+
+}
